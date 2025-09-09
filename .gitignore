@@ -1,0 +1,76 @@
+# =========================================
+# Archivos de compilación
+# =========================================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# =========================================
+# Archivos de usuario y configuración local
+# =========================================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.swp
+*.vs/
+
+# =========================================
+# Archivos de salida de Visual Studio
+# =========================================
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# =========================================
+# Archivos de dependencias y paquetes
+# =========================================
+*.nuget
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+node_modules/
+
+# =========================================
+# Archivos de configuración sensibles
+# =========================================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# =========================================
+# Archivos de pruebas y cobertura
+# =========================================
+*.coverage
+*.coveragexml
+TestResult*/
+TestResults/
+
+# =========================================
+# Archivos del sistema operativo
+# =========================================
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+*.DS_Store
+
+# =========================================
+# Archivos de publicación
+# =========================================
+publish/
+out/
+dist/
